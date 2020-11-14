@@ -15,7 +15,7 @@
 	<description>Proyecto backend para el registro </description>
 
 	<properties>
-		<java.version>11</java.version>
+<!--		<java.version>11</java.version>-->
 	</properties>
 
 	<dependencies>
@@ -31,6 +31,14 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<!-- Use MySQL Connector-J  -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+<!--			<version>8.0.21</version>-->
 		</dependency>
 
 		<dependency>
